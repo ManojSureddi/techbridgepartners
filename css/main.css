@@ -4,6 +4,13 @@ body {
   
   
 }
+.everified{
+  font-size: 12px;
+  color: #333;
+}
+.navbar-brand{
+  line-height: 18px;
+}
 .padding-10-30{
         padding: 10px 30px !important
 }
@@ -21,7 +28,9 @@ body {
 .dropdown-submenu {
   position: relative;
 }
-
+.nav-link{
+  cursor: pointer;
+}
 .dropdown-submenu a::after {
   transform: rotate(-90deg);
   position: absolute;
@@ -348,6 +357,10 @@ ul.dropdown-menu {
 .small-img{
   margin-bottom: 10px;
 }
-
+footer{
+    padding:40px;   
+    width: 100%;
+    line-height: 60px;
+}
 
 
